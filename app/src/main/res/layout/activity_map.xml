@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myblack">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        tools:context=".MapActivity">
+
+
+        <TextView
+            android:id="@+id/historyvizag"
+            style="@style/textHeadingStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@drawable/vizag2"
+            android:gravity="center"
+            android:text="@string/history"
+            android:textColor="@color/mywhite"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@id/history" />
+
+        <TextView
+            android:id="@+id/history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="@string/vizagHistory"
+            android:textColor="@color/mywhite"
+            app:layout_constraintBottom_toTopOf="@id/history1" />
+
+        <TextView
+            android:id="@+id/history1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="@string/vizagHistory1"
+            android:textColor="@color/mywhite"
+            app:layout_constraintBottom_toTopOf="@id/history2" />
+
+        <TextView
+            android:id="@+id/history2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="@string/vizagHistory2"
+            android:textColor="@color/mywhite"
+            app:layout_constraintBottom_toTopOf="@id/history3" />
+
+        <TextView
+            android:id="@+id/history3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="@string/vizagHistory3"
+            android:textColor="@color/mywhite"
+            app:layout_constraintBottom_toTopOf="@id/mapButton" />
+
+        <Button
+            android:id="@+id/mapButton"
+            style="@style/buttonStyling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:background="@xml/shape"
+            android:text="Vizag Map"
+            android:textAlignment="center"
+            android:textColor="@color/mywhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/history3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,133 @@
+<!--
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/myblack">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/myblack"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/heading"
+        style="@style/textHeadingStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".5"
+        android:layout_columnWeight="1"
+        android:text="@string/discoverVizag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:id="@+id/topdestinations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Destinations"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        style="@style/styleMainActivityLeftItems"/>
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:src="@drawable/divider"
+        app:layout_constraintBottom_toTopOf="@id/grid"
+        app:layout_constraintTop_toBottomOf="@id/topdestinations" />
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:columnCount="2"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+       >
+
+        <TextView
+            android:id="@+id/streetfood"
+            style="@style/styleMainActivityLeftItems"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_columnWeight="1"
+            android:background="@drawable/steetfood"
+            android:text="@string/localSteetfood" />
+
+        <TextView
+            android:id="@+id/cofeeshops"
+            style="@style/styleMainActivityRightItems"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cofee"
+            android:text="@string/cofeeShops" />
+
+        <TextView
+            android:id="@+id/historicalPlaces"
+            style="@style/styleMainActivityLeftItems"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_columnWeight="1"
+            android:background="@drawable/historicalplaces"
+            android:text="@string/historicalPlaces" />
+
+        <TextView
+            android:id="@+id/placestoVisit"
+            style="@style/styleMainActivityRightItems"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_columnWeight="1"
+            android:background="@drawable/places"
+            android:text="@string/placestoVisit" />
+
+        <TextView
+            android:id="@+id/map"
+            style="@style/styleMainActivityLeftItems"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_columnWeight="1"
+            android:background="@drawable/mapvizag"
+            android:text="@string/map" />
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.nikitha.android.vizagtourguide.MainActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
+        style="@style/MyCustomTabLayout"
+        android:background="@color/myblack"
+        android:textAlignment="center"
+        app:tabTextColor="@color/mywhite"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+</LinearLayout>

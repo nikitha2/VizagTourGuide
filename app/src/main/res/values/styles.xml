@@ -1,0 +1,66 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/myblack</item>
+        <item name="colorPrimaryDark">@color/myblack</item>
+    </style>
+
+    <style name="textHeadingStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:background">@drawable/vizag1</item>
+        <item name="android:textAppearance">?android:headerBackground</item>
+    </style>
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#0000FF</item>
+        <item name="background">@color/myblack</item>
+        <item name="textAppearanceBody1">@color/mywhite</item>
+    </style>
+
+    <style name="styleMainActivityLeftItems">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_marginRight">@dimen/activity_grid_margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity_grid_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+    <style name="styleMainActivityRightItems">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_marginBottom">@dimen/activity_grid_margin</item>
+        <item name="android:gravity">top</item>
+]        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+
+    <style name="styleNumberActivity">
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="buttonStyling" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="android:textColor">@color/mywhite</item>
+            <item name="colorControlHighlight">@color/myRed</item>
+            <item name="android:shape">rectangle</item>
+            <item name="android:radius">50dp</item>
+    </style>
+
+
+
+</resources>

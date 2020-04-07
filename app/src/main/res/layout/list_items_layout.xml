@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_items_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/activity_vertical_margin1">
+
+    <TextView
+        android:id="@+id/textviewMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height1"
+        android:background="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/mywhite"
+        android:gravity="right|bottom"
+        android:textDirection="firstStrongRtl"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textviewText"
+        android:textColor="@color/mywhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textviewMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="bottom"
+        android:textDirection="firstStrongLtr"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menuButton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textFontWeight="1"
+        app:layout_constraintTop_toBottomOf="@id/textviewText" />
+
+    <Button
+        android:id="@+id/directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/directions"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textFontWeight="1"
+        app:layout_constraintTop_toBottomOf="@id/textviewText"
+        app:layout_constraintRight_toLeftOf="@id/menu"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

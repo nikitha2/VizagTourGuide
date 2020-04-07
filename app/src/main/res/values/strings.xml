@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Vizag Tour Guide</string>
+    <string name="localSteetfood">Street food</string>
+    <string name="cofeeShops">Cofee Shops</string>
+    <string name="Places">hist Places</string>
+
+    <string name="historicalPlaces">Places to visit</string>
+    <string name="placestoVisit">Local fav</string>
+    <string name="discoverVizag">Discover the city of Destiny like a localite </string>
+    <string name="map">Brief History and Map</string>
+    <string name="briefHistory">Brief History</string>
+
+    <string name="vizagMap">Map of Visakhapatnam</string>
+    <string name="thotlakonda">Thotlakonda beach</string>
+    <string name="menuButton">Menu</string>
+    <string name="directions">Directions</string>
+    <string name="friedMomos">These are one of the favourite spots for many youngsters. One is located besides YMCA, the other is near Aqua Sports Complex, Beach Road. The Spring Rolls and Manchow Soup they sell are also relished.</string>
+    <string name="noodlespointText">This is the one of my personal favorites. located near the gate of zila parishad.Double egg noodles, kababs and soup noodles are to die for.</string>
+    <string name="murimixText">Visakhapatnam is known for its muri misture. The stall takes it to the next level. located in the beach road outside cafe coffee day makes it the perfect spot for everyone to the enjoy taste with a view.</string>
+    <string name="shawarmaText">Hyderabad is famous for its shawarmas, but vizag is no less. Shawarma at vizag drive-in proves this with its juice yummy shawarmas.</string>
+    <string name="unclespalovText">Uncle Palov has the best palov in town. Give it a try and you will go back for more.</string>
+    <string name="juiceshopText">There are number of good juice shops in vizag. Basheeramma juice shop is the hip spot for youngstars right now.</string>
+    <string name="tenatnoodlesText">These are one of the favourite spots for many youngsters.Located outside tenati park.It is always crowded so there is no way youll miss it.</string>
+    <string name="maggiText">If you like maggi this is the place for you. They have all varities and is located in rushikonda. Name of the stall is "last Maggi"</string>
+    <string name="gypsyText">gypsy is the next new thing for younsters. You find most of the youngsters in town in this coffee shop.They have board games for extra entertainment</string>
+    <string name="beanboardText">I personally love the view from this cofee shop. It is on top of ramanaidu studios. Food and coffee is amazing and view just makes it better. Other good locations are Bean board in Seethammadhara and pedda Waltair</string>
+    <string name="cofeeDayText">Cafe coffee day is a standard coffee shop. However the location makes the cafe fun. Just imagine a great coffee with an amaxing view.</string>
+    <string name="gluttonsgarageText">Gluttons garage near aqua beach road is one of the best coffee shops in vizag. Located near aqua beach road</string>
+    <string name="midtowncafeText">Mid town cafe Siripuram. People go there purely for their coffee. Do try this out.</string>
+    <string name="thotlakondaText">Thotlakonda beach is about 15kms from vizag. It is onr of the beautiful beaches around vizag.A hill on the sea coast with salubrious climate was an ideal attraction for the Buddhist monks to build a monastery complex here. The placid sea sheltered by the deeply in curved coastline here, provided a safe haven for anchoring ships.</string>
+    <string name="rushikondaBeachText">Rushikonda Beach located in Visakhapatnam on the coast of Bay of Bengal in the Indian state of Andhra Pradesh. The beach is maintained by the state tourism board, APTDC. Wanna have late night maggi?? this is the place for you.</string>
+    <string name="rushikondaBeach">Rushikonda Beach</string>
+    <string name="yaradadabeach">Yaradada Beach</string>
+    <string name="yaradadabeachText">Yarada Beach is situated on the west coast of Bay of Bengal in Yarada, a village at a distance of 15 kilometres from Visakhapatnam. It is located near Gangavaram beach, Dolphins Nose, and Gangavaram Port</string>
+    <string name="tennetiParkBeach">Tenneti Park Beach</string>
+    <string name="tennetiParkBeachText">Tenneti Park also known as (Vuda Tenneti Park) is an Urban park in the city of Visakhapatnam,[1] India. Situated on the Beach Road in Jodugullapalem,[2] it the first children’s park, and one of the oldest parks in the city. It is located beside Sea Shore of Bay of Bengal. GVMC installed LED screens in the park to boost Tourism in the city.</string>
+    <string name="insKursura">INS Kursura</string>
+    <string name="insKursuraText">INS Kursura (S20) was a Kalvari-class diesel-electric submarine of the Indian Navy. She was Indias fifth submarine. Kursura was commissioned on 18 December 1969 and was decommissioned on 27 February 2001 after 31 years of service. She participated in the Indo-Pakistani War of 1971, where she played a key role in patrol missions. She later participated in naval exercises with other nations and made many goodwill visits to other countries.</string>
+    <string name="victoryatsea">Victory at Sea Memorial</string>
+    <string name="victoryatseaText">The Victory at Sea Memorial is an Indian memorial constructed after the Indo-Pakistani War of 1971 which is dedicated to the Indian Navy and the Eastern Naval Command sailors. It was constructed in 1996. It is located on Beach Road, Visakhapatnam.</string>
+    <string name="aircraftMuseum">TU 142 Aircraft Museum</string>
+    <string name="aircraftMuseumText">TU 142 Aircraft Museum is also called as TU-142 Aircraft Museum or Aircraft Museum is a preserved Tupolev Tu-142 located in Visakhapatnam, in the Indian state of Andhra Pradesh. it was established in 2017 by President of India Ram Nath Kovind. </string>
+    <string name="zoo">Indira Gandhi Zoological Park</string>
+    <string name="zooText">Indira Gandhi Zoological Park is located amidst Kambalakonda Reserve Forest in Visakhapatnam, Andhra Pradesh, India. It is the third largest zoo in the country. The zoological park is named after the former Prime Minister of India, Indira Gandhi. It was declared open to the public on 19 May 1977. It covers an area of 625 acres.</string>
+
+    <string name="count">count</string>
+
+    <string name="noodlespoint">Noodles point near zila parishad</string>
+    <string name="murimix">Muri mixture beach road near cafe coffee day</string>
+    <string name="momopoints">Fried moms at YMCA</string>
+    <string name="shawarma">Shawarma at vizag drive in</string>
+    <string name="unclespalov">Uncle palov at vizag drive-in</string>
+    <string name="juiceshop">Basheeramma juice shop opposite park hotel road</string>
+    <string name="tenatnoodles">Noodles point near tenati park</string>
+    <string name="maggi">Noodles point near rishikonda</string>
+    <string name="gypsy">Gypsy coffee ahop near gitam</string>
+    <string name="cofeeDay">Cafe Coffee day beach road</string>
+    <string name="gluttonsgarage">Gluttons garage near aqua beach road</string>
+    <string name="midtowncafe">Mid town cafe Siripuram</string>
+
+
+    <string name="beanboard">Bean board cafe in Ramanaidu studios</string>
+    <string name="history">Visakhapatnam History</string>
+
+    <string name="vizagHistory">Visakhapatnam history goes back to the sixth century BC. Its name can be found in Hindu and Buddhist texts that date back to ancient times. Vizag, as Visakhapatnam is often referred to, has been mentioned by Panini and Katyayana in their writings of the fourth century BC. The city was also a part of the Kalinga kingdom, which was later conquered by the great Emperor, Ashoka.</string>
+    <string name="vizagHistory1">The city of Visakhapatnam has been named after Visakha, the god of valor and war. Visakha is the son of Lord Shiva and Goddess Parvati and is also the ruler of Mars. According to local legend, the city was named Visakhapatnam by an Andhra king between the 9th and 11th century. It is said that the king stopped for a rest in this place on his way to Varanasi, or Benaras. He was so captivated by the beauty of this place that he decided to build a temple in honor of his family deity Visakha. However, according to archaeological records, Vizag was built between the 11th and 12th century by Kulottunga of the Cholas.</string>
+    <string name="vizagHistory2">According to history of Visakhapatnam, the city has been ruled by a number of dynasties over the years. Some of the dynasties which had ruled over Visakhapatnam are the Kalingas, the Chankyas, the Rajahmundry Reddy kings, the Cholas and the Golkonda Nawabs. During the 15th and 16th centuries, Vizag was under the rule of the Mughals. As Visakhapatnam is located on the shores of Bay of Bengal, it was an important center of trading. Dutch, French and other European merchants used the port for trading in ivory, tobacco, muslin and other products. Towards the end of the 18th century, Visakhapatnam came under the control of the French.</string>
+    <string name="vizagHistory3">Since India gained independence in 1947, Visakhapatnam has become one of the leading ports of the country. Vizag is also the seat of the Eastern Naval Command of the Indian Navy.</string>
+
+    <string name="nodir">Directions not available</string>
+    <string name="nomenu">Menu not available</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
