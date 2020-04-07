@@ -28,8 +28,6 @@ public class CoffeeShopsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        /*TextView textView = new TextView(getActivity());
-        textView.setText(R.string.hello_blank_fragment);*/
         View rootView = inflater.inflate(R.layout.activity_coffee_shops, container, false);
 
         super.onCreate(savedInstanceState);

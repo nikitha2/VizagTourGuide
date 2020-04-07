@@ -36,7 +36,6 @@ public class LocalFavFragment extends Fragment {
 
         listView1Adaptor = new ListView1Adaptor(getActivity(),  listItems);
         GridView listView = (GridView) rootView.findViewById(R.id.localFavListView);
-        // t.setText("abcd");
         listView.setAdapter(listView1Adaptor);
         return rootView;
     }
