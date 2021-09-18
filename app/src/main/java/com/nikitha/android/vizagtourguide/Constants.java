@@ -36,6 +36,7 @@ public class Constants  {
                 int[] text={R.string.noodlespointText,R.string.murimixText,R.string.friedMomos,R.string.shawarmaText,R.string.unclespalovText,R.string.juiceshopText,R.string.tenatnoodlesText,R.string.maggiText};
 
                 Log.v("lengths", menu.length+" "+map.length+" "+image.length);
+                listitems.clear();
                 for(int i=0;i<menu.length;i++){
                     ListItemsObjects listItemsObjects=new ListItemsObjects();
                     listItemsObjects.setMenu(menu[i]);
@@ -61,6 +62,7 @@ public class Constants  {
                                 "api=1&query=17.716106, 83.324902",
                                 "api=1&query=17.720382, 83.316806"};
                 int[] text1={R.string.gypsyText,R.string.beanboardText,R.string.cofeeDayText,R.string.gluttonsgarageText,R.string.midtowncafeText};
+                listitems.clear();
                 for(int i=0;i<menu1.length;i++){
                     ListItemsObjects listItemsObjects=new ListItemsObjects();
                     listItemsObjects.setMenu(menu1[i]);
@@ -78,6 +80,7 @@ public class Constants  {
                 String[] map2={"api=1&query=17.826079, 83.410465","api=1&query=17.782516, 83.385114","api=1&query=17.654795, 83.269120","api=1&query=17.747659, 83.350555"};
                 int[] text2={R.string.thotlakondaText,R.string.rushikondaBeachText,R.string.yaradadabeachText,R.string.tennetiParkBeachText};
                 String[] menu2={"","","",""};
+                listitems.clear();
                 for(int i=0;i<name2.length;i++){
                     ListItemsObjects listItemsObjects=new ListItemsObjects();
                     listItemsObjects.setMap(map2[i]);
@@ -95,6 +98,7 @@ public class Constants  {
                 String[] map3={"api=1&query=17.717323, 83.330188","api=1&query=17.718681, 83.332237","api=1&query=17.717996, 83.329862","api=1&query=17.767937, 83.345423\n"};
                 int[] text3={R.string.insKursuraText,R.string.victoryatseaText,R.string.aircraftMuseumText,R.string.zooText};
                 String[] menu3={"","","",""};
+                listitems.clear();
                 for(int i=0;i<name3.length;i++){
                     ListItemsObjects listItemsObjects=new ListItemsObjects();
                     listItemsObjects.setMap(map3[i]);
